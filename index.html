@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilo.css">
+	<title>Login HBOMAX</title>
+</head>
+<body>
+	<!-- Cabeçalho da página -->
+	<header>
+		<img src="assets/images/image 7.svg">
+		<h1>Entrar</h1>
+		<p>Você tem uma conta HBO Max?</p>
+	</header>
+
+	<!-- Área Principal da Página -->
+	<main>
+		<form action="Login" method="POST">
+			<label>Email</label>
+			<input type="email" name="email" placeholder="email@email.com">
+
+			<label>Senha</label>
+			<input type="password" name="senha" placeholder="******">
+
+			<input type="submit" value="Entrar">
+		</form>
+	</main>
+
+	<!-- Rodapé da Página -->
+	<footer>
+		<form action="loginProvedor" method="POST">
+			<label>Você acessa a HBO Max por um provedor de TV,<br> de internet ou celular?</label>
+			<input type="submit" value="Entrar como Provedor">
+		</form>
+	</footer>
+</body>
+</html>
